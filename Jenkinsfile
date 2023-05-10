@@ -7,8 +7,8 @@ pipeline {
         stage (Changes) {
             steps {
                 sh 'pwd'
-              }
-           }   
-        }
-     }
+            }
+        }   
+    }
+}
 
