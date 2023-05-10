@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage (Changes) {
             steps {
-                sh 'pwd'
+                sh 'uname'
             }
         }   
     }
